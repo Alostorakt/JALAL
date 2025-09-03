@@ -1,66 +1,82 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>JALAL</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: "Tajawal", Arial, sans-serif;
-      background: #000;
-      color: #fff;
-      text-align: center;
-    }
-    .header {
-      padding: 30px 20px 10px;
-    }
-    .header h1 {
-      font-size: 32px;
-      font-weight: bold;
-      color: red;
-      text-shadow: 0 0 10px #ff0000, 0 0 20px #990000;
-      margin: 0;
-    }
-    .header p {
-      font-family: "Cursive", serif;
-      font-size: 16px;
-      color: #ccc;
-      margin: 5px 0 0;
-    }
-    .links {
-      max-width: 400px;
-      margin: 30px auto;
-      display: flex;
-      flex-direction: column;
-      gap: 15px;
-    }
-    .link {
-      display: block;
-      background: #111;
-      padding: 15px;
-      border-radius: 10px;
-      border: 1px solid #333;
-      color: #fff;
-      text-decoration: none;
-      font-size: 18px;
-      transition: 0.3s;
-    }
-    .link:hover {
-      border-color: #25d366;
-      box-shadow: 0 0 10px #25d366;
-      transform: translateY(-2px);
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JALAL</title>
+<style>
+body {
+  margin: 0;
+  font-family: "Tajawal", Arial, sans-serif;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  height: 100vh;
+}
+
+.header {
+  padding: 30px 20px 10px;
+}
+.header h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: red;
+  text-shadow: 0 0 10px #ff0000, 0 0 20px #990000;
+  margin: 0;
+}
+.header p {
+  font-family: "Cursive", serif;
+  font-size: 16px;
+  color: #ccc;
+  margin: 5px 0 0;
+}
+
+.links {
+  max-width: 400px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 15px;
+  border: 2px solid #333;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  gap: 10px;
+  background: rgba(30,30,30,0.9);
+  box-shadow: 0 0 20px rgba(255,0,0,0.7), inset 0 0 15px rgba(255,0,0,0.4);
+  transition: 0.3s;
+}
+.link:hover {
+  box-shadow: 0 0 25px #e1306c, inset 0 0 15px rgba(225,48,108,0.6);
+  transform: translateY(-3px);
+}
+.instagram-icon {
+  width: 28px;
+  height: 28px;
+}
+</style>
 </head>
 <body>
-  <div class="header">
-    <h1>JALAL</h1>
-    <p>The Dark Links of Legends</p>
-  </div>
 
-  <div class="links">
-    <a class="link" href="https://wa.me/967736820472" target="_blank">📱 تواصل واتساب</a>
-  </div>
+<div class="header">
+  <h1>JALAL</h1>
+  <p>The Dark Links of Legends</p>
+</div>
+
+<div class="links">
+  <a class="link" href="https://www.instagram.com/jlala9713?igsh=M2RqMnpvajRoNG4z&utm_source=qr" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" class="instagram-icon">
+    تابعني على إنستقرام
+  </a>
+</div>
+
 </body>
 </html>
